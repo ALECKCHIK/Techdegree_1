@@ -189,6 +189,10 @@ a.social:hover {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+.photo {
+  border-radius: 15px;
+  margin: 10px;
+}
 .photo:hover {
   border: 5px solid  rgb(131, 153, 51);
   transition: all .8s;
