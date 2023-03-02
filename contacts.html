@@ -18,26 +18,69 @@
     </div>
 
     <header>
-      <img src="images/contacts.jpg" alt="My Contacts" class="profile-image">
-      <h1 class="tag name">Contacts</h1>
+      <img src="images/contacts.jpg" alt="My Contacts" class="contact-image">
+      <h1 class="tag name">My Contacts</h1>
     </header>
-        <h2>My Contacts</h2>
-        <address>
-          <p><b>Physical address :</b> <br>
-            2448 Bradfield Road, <br>
-            Waterfalls, <br>
-            Harare,Zimbabwe</p>
-          <p><b>Cellphone No :</b> <br>
-            +263 777 026 105</p>
-            <p><b>Email address:</b> <br>
-              <a href="mailto:aleckchikoro2@gmail.com" target="_blank"> aleckchikoro2@gmail.com</a></p>
-        </address>
 
+    <main class="contact-page">
+      <div class="content">
+        <div class="con">
+        <h2>Physical address:</h2>
+        <p>2448 Bradfield Road, Waterfalls, Harare, Zimbabwe</p>
+        </div>
+
+        <div class="con">
+          <h2>Cell number:</h2>
+          <p>+236 777 026 105;</p><br>
+        </div>
+
+        <div class="con">
+          <h2>Email address:</h2>
+          <p><a href="mailto:aleckchikoro2@gmail.com">aleckchikoro2@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>Leave A Message</h2>
+        <form action="">
+        <div class="row">
+          <div class="column-1">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="column-2">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column-1">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="column-2">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column-1">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="column-2">
+            <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+    </main>
     <footer>
+      <p class="social_following">Follow me on:</p>
       <ul>
-        <li><a href="https://github.com/topics/login/" target="_blank" class="social github">Github</a></li>
+        <li><a href="https://github.com/ALECKCHIK" target="_blank" class="social github">Github</a></li>
       </ul>
       <p class="copyright">&copy; 2023, Aleck Chikoro</p>
     </footer>
   </body>
-  </html>
+</html>
