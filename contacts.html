@@ -24,54 +24,45 @@
 
     <main class="contact-page">
       <div class="content">
-        <div class="con">
         <h2>Physical address:</h2>
         <p>2448 Bradfield Road, Waterfalls, Harare, Zimbabwe</p>
-        </div>
 
-        <div class="con">
-          <h2>Cell number:</h2>
-          <p>+236 777 026 105;</p><br>
-        </div>
-
-        <div class="con">
-          <h2>Email address:</h2>
-          <p><a href="mailto:aleckchikoro2@gmail.com">aleckchikoro2@gmail.com</a></p>
-        </div>
+        <h2>Cell number:</h2>
+        <p>+236 777 026 105;</p>
+      
+        <h2>Email address:</h2>
+        <p><a href="mailto:aleckchikoro2@gmail.com"> <em>aleckchikoro2@gmail.com</em></a></p>
       </div>
 
       <div class="container">
         <h2>Leave A Message</h2>
         <form action="">
-        <div class="row">
-          <div class="column-1">
-            <label for="fname">First Name</label>
+          <div class="row">
+            <div class="column-1">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="column-2">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
           </div>
-          <div class="column-2">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <div class="row">
+            <div class="column-1">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="column-2">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="column-1">
-            <label for="lname">Last Name</label>
-          </div>
-          <div class="column-2">
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="column-1">
-            <label for="subject">Subject</label>
+          <div class="row">
+            <div class="column-1">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="column-2">
+              <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
+              <br>
+              <input type="submit" value="Submit">
           </div>
-          <div class="column-2">
-            <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <input type="submit" value="Submit">
-        </div>
         </form>
       </div>
     </main>
